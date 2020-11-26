@@ -1,11 +1,13 @@
-.topnav {background-image:url("hotel pool.jpg");
+*{background-image:background-image:url("hotel pool.jpg");}
+.nav {
     overflow: hidden;
     position: relative;
     text-align: center;
 }
 body
 {text-align: center;
-    background-color:rgb(196, 190, 190);
+    background-color:grey;
+    }
 }
 .first{
     background-color: rgb(196, 190, 190);
@@ -15,8 +17,8 @@ footer{
     color:red;
     font-size: 40px;
 }
-h1{
-    color: green;
+h5{
+    color: blue;
     font-size: 20px;
 }
 h3{
@@ -30,4 +32,14 @@ h4{
 header{
     color:red;
     font-size:20px;
+}
+.second{
+    border-style:dashed;
+    border-radius:20px ;
+    border-width: 1px;
+}
+h1{
+    color :red;
+    font-size: 19px;
+    font-style: italic;
 }
